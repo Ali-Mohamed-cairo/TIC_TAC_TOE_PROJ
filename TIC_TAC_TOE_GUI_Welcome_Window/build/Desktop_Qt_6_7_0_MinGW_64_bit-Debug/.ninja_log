@@ -1,0 +1,12 @@
+# ninja log v5
+506	2371	7360075155750351	CMakeFiles/TIC_TAC_TOE_GUI_Welcome_Window.dir/main.cpp.obj	a081102b978ad63f
+1	71	0	D:/TIC_TAC_TOE_PROJ/TIC_TAC_TOE_GUI_Welcome_Window/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	32d4f7c42a5060a
+780	3001	7362907472486213	CMakeFiles/TIC_TAC_TOE_GUI_Welcome_Window.dir/sign_in_up.cpp.obj	c15bc9a575975bae
+9	775	7362907449489022	TIC_TAC_TOE_GUI_Welcome_Window_autogen/timestamp	7a9e5a340017cd29
+9	775	7362907449489022	TIC_TAC_TOE_GUI_Welcome_Window_autogen/mocs_compilation.cpp	7a9e5a340017cd29
+778	2972	7362907472195686	CMakeFiles/TIC_TAC_TOE_GUI_Welcome_Window.dir/mainwindow.cpp.obj	3cc8ab890d782c5f
+9	775	7362907449489022	D:/TIC_TAC_TOE_PROJ/TIC_TAC_TOE_GUI_Welcome_Window/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/TIC_TAC_TOE_GUI_Welcome_Window_autogen/timestamp	7a9e5a340017cd29
+9	775	7362907449489022	D:/TIC_TAC_TOE_PROJ/TIC_TAC_TOE_GUI_Welcome_Window/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/TIC_TAC_TOE_GUI_Welcome_Window_autogen/mocs_compilation.cpp	7a9e5a340017cd29
+775	2797	7362907470439765	CMakeFiles/TIC_TAC_TOE_GUI_Welcome_Window.dir/TIC_TAC_TOE_GUI_Welcome_Window_autogen/mocs_compilation.cpp.obj	de39baaf5c4c2fd7
+3001	3293	7362907475362265	TIC_TAC_TOE_GUI_Welcome_Window.exe	26eb2419984ee77c
+67	565	7362912631776745	build.ninja	f8ddf37359d76492

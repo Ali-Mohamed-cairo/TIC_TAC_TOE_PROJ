@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>818</width>
+    <height>609</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton {
+    background-color: #32219F;
+	font: 900 16pt &quot;Segoe UI Black&quot;;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+QPushButton:hover {
+    background-color: lightblue;
+}
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="PB_Login">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>300</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #32219F;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+QPushButton:hover {
+    background-color: lightblue;
+}
+QPushButton:pressed {
+    background-color: navy;
+    color: lightblue;
+}</string>
+    </property>
+    <property name="text">
+     <string>Log in!</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Username">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>210</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    color: #7566D5;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, sans-serif; /* Example font family */
+	 qproperty-alignment: AlignCenter;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Username  :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>240</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    color: #7566D5;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, sans-serif; /* Example font family */
+	 qproperty-alignment: AlignCenter;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Password :</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="username">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>210</y>
+      <width>301</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextEdit {
+    color: blue; /* Text color */
+    font: 14pt Arial; /* Font family, size */
+    font-weight: bold; /* Font weight */
+    background-color: white; /* Background color of the text box */
+    border: 1px solid black; /* Border around the text box */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px; /* Padding inside the text box */
+}
+</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="password">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>250</y>
+      <width>301</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextEdit {
+    color: blue; /* Text color */
+    font: 14pt Arial; /* Font family, size */
+    font-weight: bold; /* Font weight */
+    background-color: white; /* Background color of the text box */
+    border: 1px solid black; /* Border around the text box */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px; /* Padding inside the text box */
+}
+</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>818</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

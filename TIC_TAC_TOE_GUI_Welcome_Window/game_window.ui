@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>game_window</class>
+ <widget class="QDialog" name="game_window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>584</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="RESET">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>430</y>
+     <width>161</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	font: 900 16pt &quot;Segoe UI Black&quot;;
+    background-color: #32219F;
+    color: white;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+QPushButton:hover {
+    background-color: lightblue;
+}
+QPushButton:pressed {
+    background-color: navy;
+    color: lightblue;
+}</string>
+   </property>
+   <property name="text">
+    <string>RESET</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>100</y>
+     <width>391</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="2" column="2">
+     <widget class="QPushButton" name="PB_2_2">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	font: 900 16pt &quot;Segoe UI Black&quot;;
+    background-color: #81BEFC;
+    color: white;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+QPushButton:hover {
+    background-color: lightblue;
+}
+QPushButton:pressed {
+    background-color: navy;
+    color: lightblue;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QPushButton" name="PB_2_1">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	font: 900 16pt &quot;Segoe UI Black&quot;;
+    background-color: #81BEFC;
+    color: white;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+QPushButton:hover {
+    background-color: lightblue;
+}
+QPushButton:pressed {
+    background-color: navy;
+    color: lightblue;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="PB_1_0">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	font: 900 16pt &quot;Segoe UI Black&quot;;
+    background-color: #81BEFC;
+    color: white;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+QPushButton:hover {
+    background-color: lightblue;
+}
+QPushButton:pressed {
+    background-color: navy;
+    color: lightblue;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QPushButton" name="PB_0_2">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	font: 900 16pt &quot;Segoe UI Black&quot;;
+    background-color: #81BEFC;
+    color: white;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+QPushButton:hover {
+    background-color: lightblue;
+}
+QPushButton:pressed {
+    background-color: navy;
+    color: lightblue;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="PB_0_1">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	font: 900 16pt &quot;Segoe UI Black&quot;;
+    background-color: #81BEFC;
+    color: white;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+QPushButton:hover {
+    background-color: lightblue;
+}
+QPushButton:pressed {
+    background-color: navy;
+    color: lightblue;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QPushButton" name="PB_0_0">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	font: 900 16pt &quot;Segoe UI Black&quot;;
+    background-color: #81BEFC;
+    color: white;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+QPushButton:hover {
+    background-color: lightblue;
+}
+QPushButton:pressed {
+    background-color: navy;
+    color: lightblue;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="PB_2_0">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	font: 900 16pt &quot;Segoe UI Black&quot;;
+    background-color: #81BEFC;
+    color: white;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+QPushButton:hover {
+    background-color: lightblue;
+}
+QPushButton:pressed {
+    background-color: navy;
+    color: lightblue;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="PB_1_1">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	font: 900 16pt &quot;Segoe UI Black&quot;;
+    background-color: #81BEFC;
+    color: white;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+QPushButton:hover {
+    background-color: lightblue;
+}
+QPushButton:pressed {
+    background-color: navy;
+    color: lightblue;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QPushButton" name="PB_1_2">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	font: 900 16pt &quot;Segoe UI Black&quot;;
+    background-color: #81BEFC;
+    color: white;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+QPushButton:hover {
+    background-color: lightblue;
+}
+QPushButton:pressed {
+    background-color: navy;
+    color: lightblue;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

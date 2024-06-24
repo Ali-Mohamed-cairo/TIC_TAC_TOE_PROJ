@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Username">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>90</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    color: #7566D5;; /* Text color for the label */
+    font-size: 20px; /* Font size */
+    font-weight: bold; /* Font weight */
+    font-family: Arial, sans-serif; /* Font family */
+    padding: 5px; /* Padding for the label */
+    background-color: #f0f0f0;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Username :</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Username_En_Text">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>80</y>
+      <width>461</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextEdit {
+    color: blue; /* Text color */
+    font: 14pt Arial; /* Font family, size */
+    font-weight: bold; /* Font weight */
+    background-color: white; /* Background color of the text box */
+    border: 1px solid black; /* Border around the text box */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px; /* Padding inside the text box */
+}
+
+QLineEdit:focus, QLineEdit:hover {
+    border-width: 4px; /* Increase border width on hover and focus */
+    border-color: #007bff; /* Border color on hover and focus */
+}
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Email">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>170</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    color: #7566D5;; /* Text color for the label */
+    font-size: 20px; /* Font size */
+    font-weight: bold; /* Font weight */
+    font-family: Arial, sans-serif; /* Font family */
+    padding: 5px; /* Padding for the label */
+    background-color: #f0f0f0;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Email      :</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Email_En">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>161</y>
+      <width>461</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextEdit {
+    color: blue; /* Text color */
+    font: 14pt Arial; /* Font family, size */
+    font-weight: bold; /* Font weight */
+    background-color: white; /* Background color of the text box */
+    border: 1px solid black; /* Border around the text box */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px; /* Padding inside the text box */
+}
+
+QLineEdit:focus, QLineEdit:hover {
+    border-width: 4px; /* Increase border width on hover and focus */
+    border-color: #007bff; /* Border color on hover and focus */
+}
+</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Password_En">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>230</y>
+      <width>461</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextEdit {
+    color: blue; /* Text color */
+    font: 14pt Arial; /* Font family, size */
+    font-weight: bold; /* Font weight */
+    background-color: white; /* Background color of the text box */
+    border: 1px solid black; /* Border around the text box */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px; /* Padding inside the text box */
+}
+
+QLineEdit:focus, QLineEdit:hover {
+    border-width: 4px; /* Increase border width on hover and focus */
+    border-color: #007bff; /* Border color on hover and focus */
+}
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Email_2">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>240</y>
+      <width>121</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    color: #7566D5;; /* Text color for the label */
+    font-size: 20px; /* Font size */
+    font-weight: bold; /* Font weight */
+    font-family: Arial, sans-serif; /* Font family */
+    padding: 5px; /* Padding for the label */
+    background-color: #f0f0f0;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Password :</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Pass_Conf_En">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>310</y>
+      <width>461</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextEdit {
+    color: blue; /* Text color */
+    font: 14pt Arial; /* Font family, size */
+    font-weight: bold; /* Font weight */
+    background-color: white; /* Background color of the text box */
+    border: 1px solid black; /* Border around the text box */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px; /* Padding inside the text box */
+}
+
+QLineEdit:focus, QLineEdit:hover {
+    border-width: 4px; /* Increase border width on hover and focus */
+    border-color: #007bff; /* Border color on hover and focus */
+}
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Email_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>310</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    color: #7566D5;; /* Text color for the label */
+    font-size: 20px; /* Font size */
+    font-weight: bold; /* Font weight */
+    font-family: Arial, sans-serif; /* Font family */
+    padding: 5px; /* Padding for the label */
+    background-color: #f0f0f0;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Confirm Password  :</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Sign_Up_PB">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>400</y>
+      <width>311</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 900 16pt &quot;Segoe UI Black&quot;;
+    background-color: #32219F;
+    color: white;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+QPushButton:hover {
+    background-color: lightblue;
+}
+QPushButton:pressed {
+    background-color: navy;
+    color: lightblue;
+}</string>
+    </property>
+    <property name="text">
+     <string>Sign Up! Welcome :)</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

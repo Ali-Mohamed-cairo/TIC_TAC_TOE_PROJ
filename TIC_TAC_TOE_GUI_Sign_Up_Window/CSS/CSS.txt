@@ -1,0 +1,29 @@
+For label :
+QLabel {
+    color: #7566D5;; /* Text color for the label */
+    font-size: 20px; /* Font size */
+    font-weight: bold; /* Font weight */
+    font-family: Arial, sans-serif; /* Font family */
+    padding: 5px; /* Padding for the label */
+    background-color: #f0f0f0;
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+QTextEdit {
+    color: blue; /* Text color */
+    font: 14pt Arial; /* Font family, size */
+    font-weight: bold; /* Font weight */
+    background-color: white; /* Background color of the text box */
+    border: 1px solid black; /* Border around the text box */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px; /* Padding inside the text box */
+}
+
+QLineEdit:focus, QLineEdit:hover {
+    border-width: 4px; /* Increase border width on hover and focus */
+    border-color: #007bff; /* Border color on hover and focus */
+}
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------

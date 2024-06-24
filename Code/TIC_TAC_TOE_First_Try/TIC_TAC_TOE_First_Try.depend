@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1713485803 source:d:\tic_tac_toe\code\first_try\tic_tac_toe_first_try\main.cpp
+	<iostream>
+	<vector>
+

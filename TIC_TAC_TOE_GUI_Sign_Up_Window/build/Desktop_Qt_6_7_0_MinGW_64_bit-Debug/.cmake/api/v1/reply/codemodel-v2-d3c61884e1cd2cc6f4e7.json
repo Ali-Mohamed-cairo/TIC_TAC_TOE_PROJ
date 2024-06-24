@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-61593277ff6e0bdecf5d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TIC_TAC_TOE_GUI_Sign_Up_Window",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "TIC_TAC_TOE_GUI_Sign_Up_Window::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TIC_TAC_TOE_GUI_Sign_Up_Window-Debug-06a1f27cd50c9cdff248.json",
+					"name" : "TIC_TAC_TOE_GUI_Sign_Up_Window",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TIC_TAC_TOE_GUI_Sign_Up_Window_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TIC_TAC_TOE_GUI_Sign_Up_Window_autogen-Debug-eaa71ad587df853f0137.json",
+					"name" : "TIC_TAC_TOE_GUI_Sign_Up_Window_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TIC_TAC_TOE_GUI_Sign_Up_Window_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TIC_TAC_TOE_GUI_Sign_Up_Window_autogen_timestamp_deps-Debug-c1894c5a62c5ef3232a2.json",
+					"name" : "TIC_TAC_TOE_GUI_Sign_Up_Window_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/TIC_TAC_TOE_PROJ/TIC_TAC_TOE_GUI_Sign_Up_Window/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
+		"source" : "D:/TIC_TAC_TOE_PROJ/TIC_TAC_TOE_GUI_Sign_Up_Window"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

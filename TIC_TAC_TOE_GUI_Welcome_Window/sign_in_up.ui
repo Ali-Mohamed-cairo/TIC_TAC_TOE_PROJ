@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Sign_In_Up</class>
+ <widget class="QDialog" name="Sign_In_Up">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>970</width>
+    <height>544</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>150</y>
+     <width>481</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="Username">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: #7566D5;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, sans-serif; /* Example font family */
+	 qproperty-alignment: AlignCenter;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Username  :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: #7566D5;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, sans-serif; /* Example font family */
+	 qproperty-alignment: AlignCenter;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Password  :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QTextEdit" name="textEdit">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QTextEdit" name="textEdit_2"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>260</y>
+     <width>271</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="PB_Login">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #32219F;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+QPushButton:hover {
+    background-color: lightblue;
+}
+QPushButton:pressed {
+    background-color: navy;
+    color: lightblue;
+}</string>
+      </property>
+      <property name="text">
+       <string>Log in!</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #32219F;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+QPushButton:hover {
+    background-color: lightblue;
+}
+QPushButton:pressed {
+    background-color: navy;
+    color: lightblue;
+}</string>
+      </property>
+      <property name="text">
+       <string>Return Home</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

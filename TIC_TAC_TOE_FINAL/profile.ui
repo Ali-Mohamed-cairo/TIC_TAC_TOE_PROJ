@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Profile</class>
+ <widget class="QDialog" name="Profile">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1007</width>
+    <height>706</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="Header">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>30</y>
+     <width>431</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>30</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.Header {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 20px; /* Add some padding */
+  text-align: center; /* Center align text */
+  font-size: 24px; /* Larger font size */
+  border-bottom: 2px solid #fff; /* White border at the bottom */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.Header:hover {
+  background-color: #555; /* Darker background color on hover */
+}</string>
+   </property>
+   <property name="text">
+    <string>Welcome</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ToWelcome">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>550</y>
+     <width>211</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #32219F;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+QPushButton:hover {
+    background-color: lightblue;
+}
+QPushButton:pressed {
+    background-color: navy;
+    color: lightblue;
+}</string>
+   </property>
+   <property name="text">
+    <string>Return to wlecome window</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>130</y>
+     <width>921</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>History</string>
+   </property>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>871</width>
+      <height>321</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="EditAccountData">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>40</y>
+     <width>181</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #32219F;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+QPushButton:hover {
+    background-color: lightblue;
+}
+QPushButton:pressed {
+    background-color: navy;
+    color: lightblue;
+}</string>
+   </property>
+   <property name="text">
+    <string>Edit account data</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ToNextGame">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>550</y>
+     <width>211</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #32219F;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+QPushButton:hover {
+    background-color: lightblue;
+}
+QPushButton:pressed {
+    background-color: navy;
+    color: lightblue;
+}</string>
+   </property>
+   <property name="text">
+    <string>To the next game</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

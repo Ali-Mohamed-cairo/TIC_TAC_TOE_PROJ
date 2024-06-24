@@ -1,0 +1,13 @@
+debug/HandlePB.o
+debug/database.o
+debug/game_window.o
+debug/main.o
+debug/mainwindow.o
+debug/nextgamesettings.o
+debug/profile.o
+debug/sign_in_up.o
+debug/moc_game_window.o
+debug/moc_mainwindow.o
+debug/moc_nextgamesettings.o
+debug/moc_profile.o
+debug/moc_sign_in_up.o

@@ -1,0 +1,45 @@
+For log in button:
+
+QPushButton {
+    background-color: #32219F;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 3px 3px 5px grey; /* Horizontal offset, vertical offset, blur radius, color */
+}
+
+QPushButton:hover {
+    background-color: lightblue;
+}
+QPushButton:pressed {
+    background-color: navy;
+    color: lightblue;
+}
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+For labels:
+
+QLabel {
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, sans-serif; /* Example font family */
+    qproperty-alignment: AlignCenter;
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+For the text boxes:
+QTextEdit {
+    color: blue; /* Text color */
+    font: 14pt Arial; /* Font family, size */
+    font-weight: bold; /* Font weight */
+    background-color: white; /* Background color of the text box */
+    border: 1px solid black; /* Border around the text box */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px; /* Padding inside the text box */
+}

@@ -1,0 +1,17 @@
+# ninja log v5
+2	66	0	D:/TIC_TAC_TOE_PROJ/TIC_TAC_TOE_GUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	dbff90a5a697fcdd
+14	168	7362368547406817	D:/TIC_TAC_TOE_PROJ/TIC_TAC_TOE_GUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/TIC_TAC_TOE_GUI_autogen/mocs_compilation.cpp	e38370e066cf6e06
+14	168	7362368547406817	TIC_TAC_TOE_GUI_autogen/timestamp	e38370e066cf6e06
+498	2331	7360071382181890	CMakeFiles/TIC_TAC_TOE_GUI.dir/TIC_TAC_TOE_GUI_autogen/mocs_compilation.cpp.obj	f5bd66346184c5aa
+501	2398	7360071382844680	CMakeFiles/TIC_TAC_TOE_GUI.dir/main.cpp.obj	6f334d2424cfdf51
+14	168	7362368547406817	TIC_TAC_TOE_GUI_autogen/mocs_compilation.cpp	e38370e066cf6e06
+14	168	7362368547406817	D:/TIC_TAC_TOE_PROJ/TIC_TAC_TOE_GUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/TIC_TAC_TOE_GUI_autogen/timestamp	e38370e066cf6e06
+172	1979	7362368565506019	CMakeFiles/TIC_TAC_TOE_GUI.dir/mainwindow.cpp.obj	539e97ff7e2eaa25
+1979	2175	7362368567423170	TIC_TAC_TOE_GUI.exe	5f3da99debeeeb08
+1	68	0	D:/TIC_TAC_TOE_PROJ/TIC_TAC_TOE_GUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	dbff90a5a697fcdd
+92	249	7363414358722109	TIC_TAC_TOE_GUI_autogen/timestamp	e38370e066cf6e06
+92	249	7363414358722109	TIC_TAC_TOE_GUI_autogen/mocs_compilation.cpp	e38370e066cf6e06
+92	249	7363414358722109	D:/TIC_TAC_TOE_PROJ/TIC_TAC_TOE_GUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/TIC_TAC_TOE_GUI_autogen/timestamp	e38370e066cf6e06
+92	249	7363414358722109	D:/TIC_TAC_TOE_PROJ/TIC_TAC_TOE_GUI/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/TIC_TAC_TOE_GUI_autogen/mocs_compilation.cpp	e38370e066cf6e06
+253	2289	7363414379091601	CMakeFiles/TIC_TAC_TOE_GUI.dir/mainwindow.cpp.obj	539e97ff7e2eaa25
+2289	2704	7363414383218482	TIC_TAC_TOE_GUI.exe	5f3da99debeeeb08
