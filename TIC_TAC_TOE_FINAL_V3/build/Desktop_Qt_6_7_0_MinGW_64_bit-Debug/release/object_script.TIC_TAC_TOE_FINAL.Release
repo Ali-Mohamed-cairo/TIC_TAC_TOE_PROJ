@@ -1,0 +1,15 @@
+release/HandlePB.o
+release/ai.o
+release/database.o
+release/game_window.o
+release/main.o
+release/mainwindow.o
+release/nextgamesettings.o
+release/profile.o
+release/sign_in_up.o
+release/moc_ai.o
+release/moc_game_window.o
+release/moc_mainwindow.o
+release/moc_nextgamesettings.o
+release/moc_profile.o
+release/moc_sign_in_up.o
